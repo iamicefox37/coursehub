@@ -3,7 +3,7 @@ from forms import RegistrationForm, LoginForm
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = '49766a12c794824c8fccdf75b5a71f77'
-
+#git changed
 posts = [
 	{
 		'author': 'Chris Lwin',
